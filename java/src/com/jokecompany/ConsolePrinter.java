@@ -1,18 +1,11 @@
 package com.jokecompany;
 
 public class ConsolePrinter {
-    public static Object PrintValue;
 
-    public ConsolePrinter Value(String value)
+    public void value(String value)
     {
-        PrintValue = value;
-        return this;
-    }
-
-    @Override
-    public String toString() {
-        System.out.println(PrintValue);
-        return null;
+    	//Prints the inputed value
+    	System.out.println(value);
     }
 
 }
